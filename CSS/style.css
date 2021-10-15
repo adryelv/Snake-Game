@@ -7,7 +7,7 @@
   width: auto;
   height: auto;
   z-index: -1000;
-  background: url(/IMG/background-star.jpg) no-repeat;
+  background: url(/IMAGES/background-star.jpg) no-repeat;
   background-size: cover;
 }
 canvas {
