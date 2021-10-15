@@ -1,20 +1,19 @@
 .star-video {
-	position: fixed; 
-	right: 0; 
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	width: auto; 
-	height: auto; 
-	z-index: -1000;
-	background: url(/img/fundo-star.jpg) no-repeat;
-	background-size: cover; 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background: url(/img/fundo-star.jpg) no-repeat;
+  background-size: cover;
 }
 canvas {
-    margin-top: 130px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: solid 1px yellow;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 1px yellow;
 }
